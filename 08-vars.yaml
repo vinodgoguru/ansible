@@ -4,4 +4,4 @@
   tasks:
   - name: print information
     debug:
-     msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, common_key: {{ common_key }}, common_value: {{ common_value }}"
+     msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, common_key: {{ common_key }}"
