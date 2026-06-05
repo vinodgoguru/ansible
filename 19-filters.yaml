@@ -43,3 +43,7 @@
   - name: convert to uppercase
     debug:
       msg: "{{ full_name | upper }}"
+
+  - name: conver to lowercase
+    debug:
+      msg: "{{ full_name | lower }}"
