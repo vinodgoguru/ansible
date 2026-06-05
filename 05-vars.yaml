@@ -6,5 +6,7 @@
     TRAINER: "Shivakumar"
   tasks:
   - name: print information
+    vars:
+      COURSE: "DevSecops with AIOps"
     debug:
       msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}"
