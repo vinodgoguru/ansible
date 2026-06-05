@@ -14,3 +14,11 @@
       full_name: "Shiva from task level"
     debug:
       msg: "Hi, {{ full_name }}"
+
+# Preference
+# 1. CMD args
+# 2. Task
+# 3. Vars_files
+# 4. vars_prompt
+# 5. play
+# 6. inventory
