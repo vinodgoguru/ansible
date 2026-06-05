@@ -4,13 +4,13 @@
   vars:
     given_number: 6
   tasks:
-  - name: is even
+  #- name: is even
     when: given_number % 2 == 0
     debug:
       msg: "give number: {{ given_number }} is even"
     
     
-  - name: is odd
+  #- name: is odd
     when: given_number % 2 != 0
     debug:
       msg: "give number: {{ given_number }} is odd"
