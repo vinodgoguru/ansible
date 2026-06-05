@@ -1,0 +1,11 @@
+- name: check number of live is_live_sessions
+  hosts: local
+  connection: local
+  vars:
+    live_sessions: 6
+  tasks:
+  - name: is ansible more than 5 sessions
+    debug:
+      msg: "Yes , ansible took more than 5 session"
+    when: live_sessions > 5
+    
