@@ -6,4 +6,4 @@
   tasks:
   - name: print variable information
     debug:
-      msg: " Hi, I am learning "{{ COURSE }}, Trainer is {{ TRAINER }}
+      msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}"
