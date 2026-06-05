@@ -12,11 +12,12 @@
     more_details: # map
       months: 5
       trainer: "Shiva kumar"
-    tasks:
-    - name: print information
-      msg: |
-        name: {{ course }}
-        duration: {{ duration_in_hrs }}
-        is_it_live: {{ is_live_sessions }}
-        topics: {{ topics }}
-        more_details: {{ more_details }}
+  tasks:
+  - name: print information
+    debug:
+    msg: |
+      name: {{ course }}
+      duration: {{ duration_in_hrs }}
+      is_it_live: {{ is_live_sessions }}
+      topics: {{ topics }}
+      more_details: {{ more_details }}
