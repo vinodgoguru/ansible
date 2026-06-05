@@ -10,4 +10,3 @@
   - name: print user_output
     debug:
       msg: "{{ user_output }}"
-    command: useradd roboshop
