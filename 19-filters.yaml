@@ -7,3 +7,7 @@
   - name: convert string to list
     debug:
       msg: "Topics are : {{ topics | split(',')}}"
+
+  - name: set default common_value
+    debug:
+      msg: "Hi {{ GREETING | default('Good Morning') }}"
