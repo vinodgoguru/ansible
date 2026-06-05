@@ -1,0 +1,12 @@
+- name: conditions using ansible_facts
+  hosts: frontend
+  tasks:
+  - name: print if Redhat
+    debug:
+      msg: "OS family is Redhat, package manager is dnf"
+    when: ansible_facts.os_family == "Redhat"
+
+  - name: print if Debian
+    debug:
+      msg: "OS family is Redhat, package manager is apt-get"
+    when: ansible_facts.os_family == "Debian"  
